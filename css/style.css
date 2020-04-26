@@ -1,0 +1,81 @@
+/* Global Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.7em;
+  font-family: "Rajdhani", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #241618;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+/* Utility */
+.container {
+  margin: auto;
+  max-width: 80rem;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #241618;
+}
+
+.text-secondary {
+  color: #4f4446;
+}
+
+.bg-light {
+  background: #ffe8e5;
+}
+
+/* Navbar */
+#navbar {
+  overflow: auto;
+}
+
+#navbar .container h1 {
+  float: left;
+  padding-top: 2rem;
+}
+
+#navbar .container ul {
+  list-style-type: none;
+  float: right;
+}
+
+#navbar .container ul li {
+  float: left;
+}
+
+#navbar .container ul li a {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+
+#navbar .container ul li a:hover {
+  background: #4f4446;
+  color: #ffe8e5;
+}
+
+#navbar .container .logo a {
+  font-size: 2.3rem;
+}
+
+#navbar .container .logo a:hover {
+  color: #4f4446;
+}
