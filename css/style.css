@@ -7,7 +7,7 @@
 
 body {
   line-height: 1.7em;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Indie Flower", cursive;
 }
 
 a {
@@ -39,6 +39,25 @@ h3 {
 
 .bg-light {
   background: #ffe8e5;
+}
+
+.lead {
+  font-size: 2rem;
+  color: #4f4f4f;
+}
+
+.btn {
+  background: #4f4446;
+  color: #ffe8e5;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #ffe8e5;
+  color: #4f4446;
 }
 
 /* Navbar */
@@ -78,4 +97,25 @@ h3 {
 
 #navbar .container .logo a:hover {
   color: #4f4446;
+}
+
+/* Header Showcase */
+#showcase {
+  background: url("/img/header.jpg") no-repeat center center/cover;
+  height: 40rem;
+}
+
+#showcase .showcase-content {
+  padding-top: 170px;
+  text-align: center;
+}
+
+#showcase .showcase-content h2 {
+  font-size: 7rem;
+  line-height: 1rem;
+}
+
+#showcase .showcase-content p {
+  padding: 3rem 3rem;
+  line-height: 2rem;
 }
