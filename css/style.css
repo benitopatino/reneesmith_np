@@ -133,15 +133,21 @@ h3 {
 
 /* Services */
 #home-services {
-  background: red;
-}
-#home-services .services {
   text-align: center;
-  padding-top: 5rem;
+}
+
+#home-services h2{
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+
+#home-services .services {
+  padding: 2rem 0;
 }
 #home-services .services .serv {
-  display: inline;
-  background: blue;
-  font-size: 5rem;
+  display: inline-block;
+  /* background: blue; */
+  font-size: 1.5rem;
   margin: 0 10rem;
 }
+
