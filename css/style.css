@@ -169,5 +169,12 @@ h3 {
   width: 50%;
   text-align: center;
   font-size: 2rem;
-  padding: 2rem 3rem;
+  padding: 5rem 4rem;
+}
+
+/* Footer */
+#main-footer {
+  min-height: 4rem;
+  text-align: center;
+  padding: 1rem 0;
 }
