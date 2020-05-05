@@ -74,6 +74,8 @@ h3 {
 /* Navbar */
 #navbar {
   overflow: auto;
+  position:fixed;
+  width: 100%;
 }
 
 #navbar .container h1 {
