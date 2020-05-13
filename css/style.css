@@ -53,7 +53,7 @@ h3 {
 }
 
 .lead {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #4f4f4f;
 }
 
@@ -74,7 +74,6 @@ h3 {
 /* Navbar */
 #navbar {
   overflow: auto;
-  position:fixed;
   width: 100%;
 }
 
@@ -172,6 +171,35 @@ h3 {
   text-align: center;
   font-size: 2rem;
   padding: 5rem 4rem;
+}
+
+/* About */
+#aboutSection {
+  text-align: center;
+  height: 50vh;
+}
+
+#aboutSection .leftAbout {
+  float: left;
+  width: 50%;
+  height: 100%; 
+  background: url('../img/about.jpg') no-repeat center center/cover;
+}
+
+#aboutSection .rightAbout {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+#aboutSection .rightAbout h2 {
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+
+#aboutSection .rightAbout p {
+  padding: 1rem 2rem;
+  line-height: 2rem;
 }
 
 /* Footer */
