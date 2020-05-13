@@ -202,6 +202,35 @@ h3 {
   line-height: 2rem;
 }
 
+/* Contact */
+
+
+#form-section .form-group {
+  margin-bottom: 20px;
+}
+
+#form-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#form-section input,
+#form-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #dddddd solid;
+}
+
+#form-section textarea {
+  height: 200px;
+}
+
+#form-section input:focus,
+#form-section textarea:focus {
+  outline: none;
+  border-color: #ffe8e5;
+}
+
 /* Footer */
 #main-footer {
   min-height: 4rem;
